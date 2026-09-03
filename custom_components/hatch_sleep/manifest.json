@@ -1,0 +1,19 @@
+{
+  "domain": "hatch_sleep",
+  "name": "Hatch Sleep",
+  "bluetooth": [
+    {
+      "connectable": true,
+      "manufacturer_id": 1076
+    }
+  ],
+  "codeowners": ["@anubis1906"],
+  "config_flow": true,
+  "dependencies": ["bluetooth_adapters"],
+  "documentation": "https://github.com/anubis1906/hatch-sleep-integration",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/anubis1906/hatch-sleep-integration/issues",
+  "requirements": ["bleak-retry-connector>=3.4.0"],
+  "version": "0.1.0"
+}
