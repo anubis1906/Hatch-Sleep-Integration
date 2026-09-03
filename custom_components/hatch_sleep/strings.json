@@ -1,0 +1,55 @@
+{
+  "config": {
+    "step": {
+      "bluetooth_confirm": {
+        "description": "Do you want to set up {name}?"
+      },
+      "user": {
+        "description": "Choose a Hatch device to set up.",
+        "data": {
+          "address": "Device"
+        }
+      }
+    },
+    "abort": {
+      "no_devices_found": "No unconfigured Hatch devices found.",
+      "already_configured": "Device is already configured"
+    }
+  },
+  "entity": {
+    "light": {
+      "light": {
+        "name": "Light"
+      }
+    },
+    "switch": {
+      "power": {
+        "name": "Power"
+      }
+    },
+    "select": {
+      "sound": {
+        "name": "Sound",
+        "state": {
+          "none": "None",
+          "stream": "Stream",
+          "white_noise": "White noise",
+          "dryer": "Dryer",
+          "ocean": "Ocean",
+          "wind": "Wind",
+          "rain": "Rain",
+          "bird": "Bird",
+          "crickets": "Crickets",
+          "brahms_lullaby": "Brahms' lullaby",
+          "twinkle_twinkle": "Twinkle twinkle little star",
+          "rock_a_bye": "Rock-a-bye baby"
+        }
+      }
+    },
+    "number": {
+      "volume": {
+        "name": "Volume"
+      }
+    }
+  }
+}
